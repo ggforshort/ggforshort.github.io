@@ -22,3 +22,11 @@ Please get in touch using the form below. Thank you!
   </label><br>
   <button type="submit">Submit</button>
 </form>
+
+<script>
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
+</script>

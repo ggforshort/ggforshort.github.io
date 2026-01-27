@@ -1,0 +1,15 @@
+<div class="sidebar">
+<a href="/">
+<div class="sidebar-top">
+<img src="/assets/images/profilepic-nobg.png" alt="Profile picture" class="profilepic">
+<h1>GG</h1>
+<h3><em>Doer of various things</em></h3>
+</div>
+</a>
+<div class="sidebar-nav">
+  {% for item in site.data.navigation %}
+  <a href="{{ item.link }}" class="sidebar-nav-link {% if page.url == item.link %}current {% endif %}">{{ item.name }}</a>
+  {% endfor %}
+  <p class="footer">Built by hand with &lt;3. &copy; 2025&ndash;2026 GG for Short.</p>
+</div>
+</div>

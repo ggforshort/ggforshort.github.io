@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noarchive">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="/assets/favicons/apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <script src="assets/js/prefixfree.js"></script>
+    <title>{{ page.title }} &dash; {{ site.title }}</title>
+</head>
+<body>
+    {% include sidebar.html %}
+    <div class="content-container-container">
+        <div class="content-container">
+            {% if page.title != "Home" %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>

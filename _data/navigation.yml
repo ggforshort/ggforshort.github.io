@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Coding/Web Development
+  link: /coding-web-development.html
+- name: Photography
+  link: /photography.html
+- name: Contact
+  link: /contact.html

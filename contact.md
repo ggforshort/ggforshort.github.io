@@ -9,15 +9,15 @@ Please get in touch using the form below. Thank you!
   method="POST"
 >
   <label>
-    Your name:<br>
+    Your name<span style="color:red">&ast;</span><br>
     <input type="text" name="name" required>
   </label><br>
   <label>
-    Your email address:<br>
+    Your email address<span style="color:red">&ast;</span><br>
     <input type="email" name="email" required>
   </label><br>
   <label>
-    Your message:<br>
+    Your message<span style="color:red">&ast;</span><br>
     <textarea name="message" required></textarea>
   </label><br>
   <button type="submit">Submit</button>

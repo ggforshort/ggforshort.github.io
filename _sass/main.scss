@@ -147,19 +147,21 @@ img[src$="#cwd-img"] {
     margin-bottom: 30px;
 }
 label {
-	padding-bottom: 8px;
+	margin-bottom: 15px;
 }
 button[type=submit] {
-	padding: 10px 15px;
+	padding: 10px 20px;
 	border-radius: 0;
 	color: white;
 	background-color: $theme-color;
     &:hover { background-color: lighten($theme-color, 15%); }
-	transition: background-color 0.5s;
+	transition: background-color 0.2s;
+	cursor: pointer;
 }
 input {
 	padding: 5px;
 	border-radius: 0;
+	border: $border-width solid $dark-gray;
 }
 /* Masonry layout from https://codepen.io/CyFox/pen/MWWEwjg :) */
 .masonry {

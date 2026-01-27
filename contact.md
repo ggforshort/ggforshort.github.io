@@ -11,14 +11,14 @@ Please get in touch using the form below. Thank you!
   <label>
     Your name:<br>
     <input type="text" name="name" required>
-  </label>
+  </label><br>
   <label>
     Your email address:<br>
     <input type="email" name="email" required>
-  </label>
+  </label><br>
   <label>
     Your message:<br>
     <textarea name="message" required></textarea>
-  </label>
+  </label><br>
   <button type="submit">Submit</button>
 </form>

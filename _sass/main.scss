@@ -165,10 +165,10 @@ input {
 }
 textarea {
 	width: 100%;
-	@media (min-width: $md) {
+	@media (min-width: $lg) {
 		width: 450px;
 	}
-	height: 200px;
+	height: 150px;
 	border: 1px solid $dark-gray;
 	border-radius: 0;
 	padding: 5px;

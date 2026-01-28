@@ -163,6 +163,12 @@ input {
 	border-radius: 0;
 	border: 1px solid $dark-gray;
 }
+textarea {
+	width: 300px;
+	height: 125px;
+	border: 1px solid $dark-gray;
+	border-radius: 0;
+}
 /* Masonry layout from https://codepen.io/CyFox/pen/MWWEwjg :) */
 .masonry {
 	column-count: 1;
